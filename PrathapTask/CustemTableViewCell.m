@@ -106,7 +106,9 @@
                                                                                attribute:NSLayoutAttributeCenterX
                                                                               multiplier:1
                                                                                 constant:0] ;
-        NSLayoutConstraint *rowImageViewHeight = [NSLayoutConstraint constraintWithItem:self.rowImageView attribute:NSLayoutAttributeWidth relatedBy:NSLayoutRelationEqual toItem:nil attribute:0 multiplier:1 constant:self.contentView.frame.size.width-40] ;
+        
+        NSLayoutConstraint *rowImageViewHeight = [NSLayoutConstraint constraintWithItem:self.rowImageView attribute:NSLayoutAttributeHeight relatedBy:NSLayoutRelationEqual toItem:nil attribute:0 multiplier:1 constant:self.contentView.frame.size.width-40] ;
+        
         NSLayoutConstraint *rowImageViewWidth = [NSLayoutConstraint constraintWithItem:self.rowImageView attribute:NSLayoutAttributeWidth relatedBy:NSLayoutRelationEqual toItem:nil attribute:0 multiplier:1 constant:self.contentView.frame.size.width-40] ;
         [self.contentView addConstraints:[NSArray arrayWithObjects:rowImageViewTop,rowImageViewCenterX,rowImageViewHeight,rowImageViewWidth, nil]];
         
