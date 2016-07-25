@@ -10,9 +10,15 @@
 		5224584F1D45CB5F007DE400 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5224584E1D45CB5F007DE400 /* main.m */; };
 		522458521D45CB5F007DE400 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 522458511D45CB5F007DE400 /* AppDelegate.m */; };
 		522458551D45CB5F007DE400 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 522458541D45CB5F007DE400 /* ViewController.m */; };
-		522458581D45CB5F007DE400 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 522458561D45CB5F007DE400 /* Main.storyboard */; };
 		5224585A1D45CB5F007DE400 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 522458591D45CB5F007DE400 /* Assets.xcassets */; };
 		5224585D1D45CB5F007DE400 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5224585B1D45CB5F007DE400 /* LaunchScreen.storyboard */; };
+		522458691D45CD47007DE400 /* FactsUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 522458681D45CD47007DE400 /* FactsUtility.m */; };
+		5224586E1D45D021007DE400 /* ReadMe.md in Sources */ = {isa = PBXBuildFile; fileRef = 5224586B1D45D021007DE400 /* ReadMe.md */; };
+		5224586F1D45D021007DE400 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 5224586D1D45D021007DE400 /* Reachability.m */; };
+		522458721D45D49F007DE400 /* FactsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 522458711D45D49F007DE400 /* FactsModel.m */; };
+		522458751D45D675007DE400 /* NSString+IsEmpty.m in Sources */ = {isa = PBXBuildFile; fileRef = 522458741D45D675007DE400 /* NSString+IsEmpty.m */; };
+		5224587A1D45DF0E007DE400 /* CustemTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 522458791D45DF0E007DE400 /* CustemTableViewCell.m */; };
+		5224587D1D45E872007DE400 /* placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = 5224587C1D45E872007DE400 /* placeholder.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,10 +28,21 @@
 		522458511D45CB5F007DE400 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		522458531D45CB5F007DE400 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		522458541D45CB5F007DE400 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		522458571D45CB5F007DE400 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		522458591D45CB5F007DE400 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5224585C1D45CB5F007DE400 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5224585E1D45CB5F007DE400 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		522458671D45CD47007DE400 /* FactsUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FactsUtility.h; sourceTree = "<group>"; };
+		522458681D45CD47007DE400 /* FactsUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FactsUtility.m; sourceTree = "<group>"; };
+		5224586B1D45D021007DE400 /* ReadMe.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = ReadMe.md; sourceTree = "<group>"; };
+		5224586C1D45D021007DE400 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		5224586D1D45D021007DE400 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		522458701D45D49F007DE400 /* FactsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FactsModel.h; sourceTree = "<group>"; };
+		522458711D45D49F007DE400 /* FactsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FactsModel.m; sourceTree = "<group>"; };
+		522458731D45D675007DE400 /* NSString+IsEmpty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+IsEmpty.h"; sourceTree = "<group>"; };
+		522458741D45D675007DE400 /* NSString+IsEmpty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+IsEmpty.m"; sourceTree = "<group>"; };
+		522458781D45DF0E007DE400 /* CustemTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustemTableViewCell.h; sourceTree = "<group>"; };
+		522458791D45DF0E007DE400 /* CustemTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustemTableViewCell.m; sourceTree = "<group>"; };
+		5224587C1D45E872007DE400 /* placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = placeholder.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +75,15 @@
 		5224584C1D45CB5F007DE400 /* PrathapTask */ = {
 			isa = PBXGroup;
 			children = (
+				522458641D45CCCC007DE400 /* Controllers */,
+				522458771D45DEE1007DE400 /* Views */,
+				522458661D45CCF1007DE400 /* Utility */,
+				522458651D45CCE0007DE400 /* Models */,
+				522458761D45D7CC007DE400 /* Category */,
+				5224586A1D45CF58007DE400 /* Reachability */,
+				5224587B1D45E863007DE400 /* Images */,
 				522458501D45CB5F007DE400 /* AppDelegate.h */,
 				522458511D45CB5F007DE400 /* AppDelegate.m */,
-				522458531D45CB5F007DE400 /* ViewController.h */,
-				522458541D45CB5F007DE400 /* ViewController.m */,
-				522458561D45CB5F007DE400 /* Main.storyboard */,
 				522458591D45CB5F007DE400 /* Assets.xcassets */,
 				5224585B1D45CB5F007DE400 /* LaunchScreen.storyboard */,
 				5224585E1D45CB5F007DE400 /* Info.plist */,
@@ -77,6 +98,69 @@
 				5224584E1D45CB5F007DE400 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		522458641D45CCCC007DE400 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				522458531D45CB5F007DE400 /* ViewController.h */,
+				522458541D45CB5F007DE400 /* ViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		522458651D45CCE0007DE400 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				522458701D45D49F007DE400 /* FactsModel.h */,
+				522458711D45D49F007DE400 /* FactsModel.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		522458661D45CCF1007DE400 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				522458671D45CD47007DE400 /* FactsUtility.h */,
+				522458681D45CD47007DE400 /* FactsUtility.m */,
+			);
+			name = Utility;
+			sourceTree = "<group>";
+		};
+		5224586A1D45CF58007DE400 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				5224586B1D45D021007DE400 /* ReadMe.md */,
+				5224586C1D45D021007DE400 /* Reachability.h */,
+				5224586D1D45D021007DE400 /* Reachability.m */,
+			);
+			name = Reachability;
+			sourceTree = "<group>";
+		};
+		522458761D45D7CC007DE400 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				522458731D45D675007DE400 /* NSString+IsEmpty.h */,
+				522458741D45D675007DE400 /* NSString+IsEmpty.m */,
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
+		522458771D45DEE1007DE400 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				522458781D45DF0E007DE400 /* CustemTableViewCell.h */,
+				522458791D45DF0E007DE400 /* CustemTableViewCell.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		5224587B1D45E863007DE400 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				5224587C1D45E872007DE400 /* placeholder.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +221,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				5224585D1D45CB5F007DE400 /* LaunchScreen.storyboard in Resources */,
+				5224587D1D45E872007DE400 /* placeholder.png in Resources */,
 				5224585A1D45CB5F007DE400 /* Assets.xcassets in Resources */,
-				522458581D45CB5F007DE400 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,21 +235,19 @@
 			files = (
 				522458551D45CB5F007DE400 /* ViewController.m in Sources */,
 				522458521D45CB5F007DE400 /* AppDelegate.m in Sources */,
+				522458691D45CD47007DE400 /* FactsUtility.m in Sources */,
+				522458751D45D675007DE400 /* NSString+IsEmpty.m in Sources */,
+				522458721D45D49F007DE400 /* FactsModel.m in Sources */,
+				5224587A1D45DF0E007DE400 /* CustemTableViewCell.m in Sources */,
 				5224584F1D45CB5F007DE400 /* main.m in Sources */,
+				5224586F1D45D021007DE400 /* Reachability.m in Sources */,
+				5224586E1D45D021007DE400 /* ReadMe.md in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		522458561D45CB5F007DE400 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				522458571D45CB5F007DE400 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		5224585B1D45CB5F007DE400 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
